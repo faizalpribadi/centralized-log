@@ -1,5 +1,5 @@
 # centralized-log
-Centralized Log of Application With ELK Stack 
+Centralized Log of Application With ELK Stack ( Structured Logging )
 
 ## Requirements
 
@@ -29,3 +29,7 @@ curl --location --request POST 'http://localhost:3000/create' \
 	"data": "Hello ELK"
 }'
 ```
+
+
+### Screenshots
+
