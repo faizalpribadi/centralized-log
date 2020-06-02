@@ -3,10 +3,10 @@ Centralized Log of Application With ELK Stack ( Structured Logging )
 
 ## Requirements
 
-* Elasticsearch 
-* Kibana
-* Logstash
-* Filebeat
+* Elasticsearch - `7.7.0 version - already installed`
+* Kibana - `7.7.0 version - already installed`
+* Logstash - `7.7.0 version - already installed`
+* Filebeat - `7.7.0 version - already installed`
 * Application with log files , for example : `app.log`
 
 
