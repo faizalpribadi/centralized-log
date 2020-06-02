@@ -14,7 +14,7 @@ Centralized Log of Application With ELK Stack ( Structured Logging )
 
 1. `./filebeat -e -c filebeat/filebeat.yml -d "publish"`
 
-2. `./logstash -f logstash.conf --config.reload.automatic`
+2. `./logstash -f logstash/logstash.conf --config.reload.automatic`
 
 3. `go run main.go`
 
