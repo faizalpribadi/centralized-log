@@ -1,0 +1,8 @@
+package: .
+import:
+- package: github.com/labstack/echo
+  version: ~3.3.10
+  subpackages:
+  - middleware
+- package: github.com/sirupsen/logrus
+  version: ~1.6.0
