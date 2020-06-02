@@ -33,3 +33,5 @@ curl --location --request POST 'http://localhost:3000/create' \
 
 ### Screenshots
 
+discover index on kibana ( logstash-application index name )
+![kibana-discover-index](https://github.com/faizalpribadi/centralized-log/blob/master/images/kibana-01.png)
