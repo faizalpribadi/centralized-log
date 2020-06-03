@@ -25,8 +25,10 @@ curl --location --request POST 'http://localhost:3000/create' \
 --header 'Content-Type: application/json' \
 --data-raw '{
 	"id": "1",
-	"name": "iCal",
-	"data": "Hello ELK"
+	"name": "ical",
+	"data": {
+		"enabled": false
+	}
 }'
 ```
 
