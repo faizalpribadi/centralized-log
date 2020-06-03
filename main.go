@@ -43,6 +43,7 @@ func main() {
 	r.Use(middleware.Recover())
 
 	logrus.SetFormatter(&logrus.JSONFormatter{})
+	logrus.SetReportCaller(true)
 	f, err := os.OpenFile("logs/app.log", os.O_WRONLY|os.O_CREATE, 0755)
 	if err != nil {
 		logrus.Error(err)
@@ -50,7 +51,5 @@ func main() {
 	logrus.SetOutput(f)
 
 	r.POST("/create", Create)
-	if err := r.Start(":3000"); err != nil {
-		os.Exit(1)
-	}
+	r.Logger.Fatal(r.Start(":3000"))
 }

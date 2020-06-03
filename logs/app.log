@@ -1,2 +1,1 @@
-{"_event":"Create","http_request_body":{"id":"1","name":"ical","data":"iam data"},"http_request_method":"POST","http_status_code":200,"level":"info","msg":"Success Execute","time":"2020-06-03T01:27:47+07:00"}
-{"_event":"Create","http_request_body":{"id":"2","name":"uti","data":"iam uti"},"http_request_method":"POST","http_status_code":200,"level":"info","msg":"Success Execute","time":"2020-06-03T01:27:59+07:00"}
+{"_event":"Create","file":"/Users/faizal.pribadi/centralized-log/main.go:36","func":"main.Create","http_request_body":{"id":"1","name":"ical","data":{"enabled":false}},"http_request_method":"POST","http_status_code":200,"level":"info","msg":"Success Execute","time":"2020-06-03T18:22:08+07:00"}

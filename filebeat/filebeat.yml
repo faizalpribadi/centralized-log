@@ -24,3 +24,5 @@ processors:
   - add_cloud_metadata: ~
   - add_docker_metadata: ~
   - add_kubernetes_metadata: ~
+  - drop_fields:
+      fields: ["agent.ephemeral_id", "agent.hostname", "agent.id", "agent.type", "agent.version", "ecs.version", "input.type", "log.offset", "version", "host.architecture", "host.hostname", "host.ip", "host.mac", "host.name", "host.os.build", "host.os.family", "host.os.kernel", "host.os.name", "host.os.platform", "host.os.version", "@version", "host.id"]
